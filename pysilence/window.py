@@ -45,7 +45,7 @@ class WindowEnergyIterator:
     # can be calculated
     def _init_queue(self):
         for i in range(self.queue.size - 1):
-            self.queue.add(silence.get_energy(self.audio_data[i * self.chunk_size:(i + 1) * self.chunk_size]))
+            self.queue.add(silence._get_energy(self.audio_data[i * self.chunk_size:(i + 1) * self.chunk_size]))
 
     # print progress
     def progress(self):
