@@ -2,7 +2,7 @@ import time
 
 import numpy as np
 
-from pysilence import util, window
+from . import util, window
 
 
 # returns a list of silence_detection ranges

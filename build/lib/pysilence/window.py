@@ -3,7 +3,7 @@ import time
 
 import numpy as np
 
-from silence_detection import util, silence
+from . import util, silence
 
 
 class WindowEnergyIterator:
