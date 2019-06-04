@@ -12,7 +12,7 @@ setuptools.setup(
 	description="A silence detection module",
 	long_description=long_description,
 	long_description_content_type="text/markdown",
-	url="https://github.com/javatechy/dokr",
+	url="https://github.com/antonbaumann/pysilence",
 	packages=setuptools.find_packages(),
 	classifiers=[
 		"Programming Language :: Python :: 3",
