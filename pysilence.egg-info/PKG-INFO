@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pysilence
+Version: 0.1.2
+Summary: A silence detection module
+Home-page: https://github.com/antonbaumann/pysilence
+Author: Anton Baumann
+Author-email: anton@antonbaumann.com
+License: UNKNOWN
+Description: # PySilence
+        
+        PySilence is an silence detection tool
+        
+        ### Install
+        ```pip install pysilence```
+        
+        ### Usage
+        ```python
+        from pysilence import silence
+        
+        ranges = silence.detect_silence_ranges(
+            audio_data=audio,
+            sample_rate=rate,
+            min_silence_len=2000,
+            step_duration=200,
+            silence_threshold=0.1,
+            verbose=False,
+            progress=False,
+        )
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
