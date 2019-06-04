@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
 	name='pysilence',
-	version='0.1.2',
+	version='0.1.3',
 	scripts=[],
 	author="Anton Baumann",
 	author_email="anton@antonbaumann.com",
