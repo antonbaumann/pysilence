@@ -58,7 +58,7 @@ class WindowEnergyIterator:
     # return average energy in next window
     def next_window_energy(self):
         self.queue.add(
-            silence.get_energy(
+            silence._get_energy(
                 self.audio_data[self.queue.index * self.chunk_size: (self.queue.index + 1) * self.chunk_size]
             )
         )
